@@ -1,6 +1,6 @@
 /* Service worker : fait fonctionner l'application sans réseau.
    POUR PUBLIER UNE MISE À JOUR : modifier index.html, puis CHANGER le numéro ci-dessous (v1 -> v2...). */
-var V = "aai-rapport-v1";
+var V = "aai-rapport-v3";
 var FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-512-maskable.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", function (e) {
